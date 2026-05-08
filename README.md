@@ -7,6 +7,19 @@ Repository: https://github.com/choimagon/BlackBar
 ## Requirements
 - macOS 13 or later
 
+
+Install the Python dependency used by `scripts/generate_app_icon.py`:
+
+```bash
+pip3 install pillow
+```
+
+If you want to build a DMG, install `create-dmg` first:
+
+```bash
+brew install create-dmg
+```
+
 ## Install
 
 Clone the repository and build the app locally:
@@ -14,6 +27,8 @@ Clone the repository and build the app locally:
 ```bash
 git clone https://github.com/choimagon/BlackBar.git
 cd BlackBar
+chmod +x scripts/package_app.sh
+chmod +x scripts/package_dmg.sh
 ./scripts/package_app.sh
 open dist/BlackBar.app
 ```
