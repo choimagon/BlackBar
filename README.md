@@ -5,9 +5,7 @@ BlackBar is a lightweight macOS menu bar utility that makes the notch and top me
 Repository: https://github.com/choimagon/BlackBar
 
 ## Requirements
-
 - macOS 13 or later
-- Xcode Command Line Tools
 
 ## Install
 
