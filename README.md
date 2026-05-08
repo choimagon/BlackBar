@@ -18,13 +18,6 @@ cd BlackBar
 open dist/BlackBar.app
 ```
 
-If you want a DMG instead:
-
-```bash
-./scripts/package_dmg.sh
-open dist/BlackBar.dmg
-```
-
 ## Usage
 
 - Launch `BlackBar.app`
